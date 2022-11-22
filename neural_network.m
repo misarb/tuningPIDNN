@@ -1,6 +1,6 @@
 function [kp,ki,kd]=  neural_network(consg, err)
-    epochs = 1000;
-    learningRate = 0.3;
+     epochs = 10000;
+    learningRate = 0.0001;
     w1=1;
     w2=1;
     w3=1;
@@ -12,12 +12,11 @@ function [kp,ki,kd]=  neural_network(consg, err)
         %w1= w1-learningRate*(1/length(err))*theata1
         w2= w2-learningRate*(1/length(err))*theata2;
        % w3= w3-learningRate*(1/length(err))*theata3
-        w4= w4-learningRate*(1/length(err))*theata4;
-        
+        w4= w4-learningRate*(1/length(err))*theata4;  
     end 
-    kp=z1
-    ki=z2
-    kd=z3
+    kp=z1(1)
+    ki=z2(1)
+    kd=z3(1)
 
 
 
