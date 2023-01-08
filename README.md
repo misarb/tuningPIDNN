@@ -21,7 +21,7 @@ read [contribution guidelines](https://github.com/misarb/SpiderKDP/blob/master/C
 
 
 ## TO DO
-- [ ] ARM 3DDL modeling
+- [x] ARM 3DDL modeling
 - [ ] Documentation
  
 
