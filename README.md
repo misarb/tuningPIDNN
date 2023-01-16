@@ -1,7 +1,7 @@
 ## Tuning PID controller with Neural Network for manipilateur Robot 3DDL
-in this repo we create an adaptive PID with neural network to correct erreur in real time and we focus in this project on robotic manipulator Arm with 3DDL
+in this repo we create an adaptive PID with neural network to correct erreur in real time of a robotic manipulator Arm with 3DDL
 
-#Nerual Network tested with second order system
+# Nerual Network tested with second order system
 
 ## 1- result for step 
 ![](img/step2.png) 
@@ -13,7 +13,16 @@ in this repo we create an adaptive PID with neural network to correct erreur in 
 ## 2-2 PID parameter adjusting result
 ![](img/rampPID.png) 
 
+## Nerual Network tested with the Arm system
+![](img/blocSystem.png) 
+# PIDNN
+![](img/pidnn.png)
 
+# 1 Result with sinWave
+![](img/outputSystem.png)
+
+# 1-1 cost function
+![](img/fctCout.png)
 
 ## Contributing
 
